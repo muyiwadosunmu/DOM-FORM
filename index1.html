@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Form</title>
+    <link rel="stylesheet" href="./index.css">    
+</head>
+<body>
+    <fieldset>
+            <legend> <h2>Form</h2></legend>
+        <form id="form">
+            <input type="text" id="name" name="name" placeholder="Name"><br><br>
+            <input type="text" id="email" name="email" placeholder="Email"><br><br>
+            <input type="text" id="phone" name="phone" placeholder="Phone Number"><br><br>
+            <input type="text" id="employeeID" name="employeeID" placeholder="Employee ID"><br><br>
+            <input type="date" id="joinDate" name="joinDate" placeholder=""><br>
+            <label>Male</label>
+            <input type="radio" name="" id="">
+            <label>Female</label>
+            <input type="radio" checked name="" id="">
+            <input type="submit" value="Submit" id="btn" onclick="Submit()">
+            <input type="reset" value="Reset">   
+        </form>
+    </fieldset>
+    <br>
+    <div id="msg"></div>
+
+    <fieldset>
+        <legend>
+            <h2>Local Storage</h2>
+        </legend>
+        <table border="2" id="table ">
+            <tr>
+                <th class="col">Name</th>
+                <th class="col">Email</th>
+                <th class="col">Phone Number</th>
+                <th class="col">Employee ID</th>
+                <th class="col">Date Joined</th>
+                <th class="col">Gender</th>
+            </tr>
+            <tr>
+
+            </tr>
+        </table>
+    </fieldset>
+    
+</body>
+<script src="./index.js"></script>
+
+</html>
